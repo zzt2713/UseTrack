@@ -1,0 +1,36 @@
+# 构建产物
+build/
+out/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.ilk
+*.exp
+
+# Qt Creator 的个人工程配置（每个人一份，不该共享）
+.qtcreator/
+CMakeLists.txt.user*
+
+# 数据与备份
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# 界面预览稿：开发过程中的设计草稿，不随源码发布
+preview/
+
+# 根目录旧版图标副本（正式资源在 resources/ 下）
+/icons/
+/tray/
+
+# 编辑器与系统
+.vs/
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
